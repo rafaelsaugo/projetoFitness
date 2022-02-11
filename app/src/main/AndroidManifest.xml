@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Android="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="co.tiagoaguiar.codelab.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo_hs"
+        android:label="@string/app_hs"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScree"
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".SobreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeberAgua"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Video"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAbcRemadorE"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAfundoTeste"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            Android:hardwareAccelerated="true" />
+        <activity
+            android:name=".VideoAbcRoda"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAbdcGluteoMiniband"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoAbdcJoelhoMiniband"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoAbdcMiniband"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoAbdInfra"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAbdReto"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAfundoDesenvolvimento"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAfundoelevacaoJoelho"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAfundoElevacaoJoelhoRemada"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoAfundoPliometrico"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAfundoPliometricoAlternado"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAfundoRemadaAlternada"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoAfundoRemadaSimultanea"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoAfundoReverso"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAfundoReversoUni"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoAgachamentoAfundoReverso"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAgachamentoBiceps"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAgachamentoPeso"
+            android:exported="false"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".VideoAgachamentoPesoFrontal"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoAbcRemador"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAbdRussian"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAfundoAgachamentoAvanco"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoAfundoAlternadoRemadaSimultanea"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideosActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".IcqActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".TmbActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".CronometerActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MenuVideosActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".ImcActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

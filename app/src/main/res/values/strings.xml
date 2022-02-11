@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Henrique Souto Fitness</string>
+    <string name="label_hs">Henrique Souto</string>
+    <string name="label_tmb">Taxa Metabólica Basal</string>
+    <string name="label_chronometer">Cronômetro</string>
+    <string name="label_icq"></string>
+    <string name="todo">TODO</string>
+    <string name="imc_desc">IMC é a sigla para Índice de Massa Corporal que serve para avaliar o peso
+        do indivíduo em relação à sua altura e assim indicar se está dentro do peso ideal,
+        acima ou abaixo do peso desejado.\n\nPreencha os campos de peso e altura para descobrir o seu IMC</string>
+    <string name="weight">Peso (KG)</string>
+    <string name="height">Altura (CM)</string>
+    <string name="calc">Calcular</string>
+    <string name="personal">PERSONAL TRAINER</string>
+    <string name="Cronometer">Cronômetro</string>
+    <string name="time">00:00:00</string>
+    <string name="timeEditText">00:00</string>
+    <string name="filds_messages">Os campos devem ser todos preenchidos</string>
+    <string name="imc_severely_low_weight">Extremamente abaixo do peso</string>
+    <string name="icq_severely_low_weight">Extremamente abaixo</string>
+
+    <string name="imc_very_low_weight">Muito abaixo do peso</string>
+    <string name="icq_very_low_weight">Muito abaixo</string>
+    <string name="imc_low_weight">Abaixo do peso</string>
+    <string name="icq_low_weight">Baixo</string>
+    <string name="normal">Normal</string>
+    <string name="imc_high_weight">Acima do peso</string>
+    <string name="icq_high_weight">Acima</string>
+    <string name="imc_so_high_weight">Moderadamente obeso</string>
+    <string name="icq_so_high_weight">Moderadamente acima</string>
+    <string name="imc_severely_high_weight">Extremamente obeso</string>
+    <string name="icq_severely_high_weight">Extremamente acima</string>
+    <string name="imc_extreme_weight">Extremamente obeso</string>
+    <string name="icq_extreme_weight">Extremamente acima</string>
+
+    <string name="imc_response">Imc: %1$.2f</string>
+    <string name="icq_response">Icq: %1$.2f</string>
+    <string name="save">Salvar</string>
+    <string name="calc_saved">Registro salvo com sucesso</string>
+    <string name="calc_removed">Registro removido com sucesso</string>
+    <string name="search">Buscar</string>
+    <string name="tmb_desc">TMB é o cálculo para descobrir a quantidade calórica que o corpo necessita com base no seu estilo de vida</string>
+    <string name="age">Idade</string>
+    <string name="tmb_response">Tmb: %1$.2f</string>
+    <string name="delete_message">Você realmente quer excluir o registro?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="tmb1_desc">A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para manter as funções do organismo em repouso, como os batimentos cardíacos, a pressão arterial, a respiração e a manutenção da temperatura corporal.</string>
+    <string name="man">Homens</string>
+    <string name="girl">Mulheres</string>
+    <string name="age1">Idade</string>
+    <string name="leve">Leve</string>
+    <string name="moderado">Moderado</string>
+    <string name="pesado">Pesado</string>
+    <string name="typeTreining">TIPO DE TREINO</string>
+    <string name="clean">Limpar</string>
+    <string name="semana">Resultado para Semana</string>
+    <string name="mes">Resuldado para o mês</string>
+    <string name="icq_desc">A relação cintura-quadril (RCQ) é o cálculo que se faz a partir das medidas da cintura e do quadril para verificar o risco que uma pessoa tem de desenvolver uma doença cardiovascular. Isso acontece porque, quanto maior a concentração da gordura abdominal, maior o risco de ter problemas como colesterol alto, diabetes, pressão alta ou aterosclerose.</string>
+    <string name="tamanho">Tamanho da Cintura (2 dedos acima do umbigo).</string>
+    <string name="tamanhoQuadril">Tamanho do Quadril (medir na parte mais larga do quadril).</string>
+    <string name="cintura">Cintura</string>
+    <string name="quadril">Quadril</string>
+    <string name="saved">Dados salvos com sucesso.</string>
+    <string name="app_hs">Henrique Souto Fitness</string>
+    <string name="label_videos">Video Aula</string>
+    <string name="label_imc">Indíce Massa Corporea</string>
+    <string name="abdPernaElevadaCurto">Abdominal Perna Elevada Curta</string>
+    <string name="abdRussianTwist">Abdominal Russian Twist</string>
+    <string name="peso">Peso</string>
+    <string name="idade">Idade</string>
+    <string name="calc_agua">CALCULAR INJESTÃO DIÁRIA</string>
+    <string name="lembrete">Lembrete</string>
+    <string name="alarm">Alarme</string>
+    <string name="hora">00</string>
+    <string name="doisPontos">:</string>
+    <string name="seconds">00</string>
+    <string name="Beber_agua">Beber Água</string>
+    <string name="toast_informe_peso">Informe seu peso!</string>
+    <string name="toast_informe_idade">Informe seu idade!</string>
+    <string name="dialog_title">Redefinir dados</string>
+    <string name="dialog_message">Deseja excluir todos os dados existentes?</string>
+    <string name="alarme_message">Hora de beber água!</string>
+    <string name="Sobre">Sobre o personal</string>
+    <string name="Treino">Ficha de treino</string>
+
+</resources>

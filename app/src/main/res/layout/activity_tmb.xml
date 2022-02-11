@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        tools:context=".ImcActivity">
+
+        <TextView
+            android:textAlignment="center"
+            android:text="@string/tmb1_desc"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonHomem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="12dp"
+            android:text="@string/man"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMulher"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/girl"
+            android:textStyle="bold" />
+        </RadioGroup>
+
+        <EditText
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="40dp"
+            android:maxLength="3"
+            android:id="@+id/edit_tmb_weight"
+            android:hint="@string/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/typeTreining"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonLeve"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/leve"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButtonModerado"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/moderado"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButtonPesado"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pesado"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <EditText
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="40dp"
+            android:maxLength="3"
+            android:id="@+id/edit_tmb_height"
+            android:hint="@string/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:gravity="center"
+            android:inputType="number"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="40dp"
+            android:maxLength="2"
+            android:id="@+id/edit_tmb_age"
+            android:hint="@string/age1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/semana"
+                android:text="@string/semana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <CheckBox
+                android:id="@+id/mes"
+                android:text="@string/mes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <Button
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_tmb_calc"
+            android:background="@drawable/bg_button_calc"
+            android:text="@string/calc"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="45dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_tmb_limpar"
+            android:background="@drawable/bg_button_calc"
+            android:text="@string/clean"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+</ScrollView>

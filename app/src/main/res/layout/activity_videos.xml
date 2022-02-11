@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".VideosActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cd_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:text="@string/abdPernaElevadaCurto"
+                android:textColor="@android:color/background_dark"
+                android:textSize="25sp" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTintMode="screen" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cd_video1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_below="@+id/cd_video">
+
+            <TextView
+                android:id="@+id/txt_video1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:text="@string/abdRussianTwist"
+                android:textColor="@android:color/background_dark"
+                android:textSize="25sp" />
+
+            <VideoView
+                android:id="@+id/videoView1"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTintMode="screen"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cd_video2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_below="@+id/cd_video1">
+
+            <TextView
+                android:id="@+id/txt_video2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:text="@string/abdPernaElevadaCurto"
+                android:textColor="@android:color/background_dark"
+                android:textSize="25sp" />
+
+            <VideoView
+                android:id="@+id/videoView2"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTintMode="screen"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cd_video3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_below="@+id/cd_video1">
+
+            <TextView
+                android:id="@+id/txt_video3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:text="@string/abdPernaElevadaCurto"
+                android:textColor="@android:color/background_dark"
+                android:textSize="25sp" />
+
+            <VideoView
+                android:id="@+id/videoView3"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTintMode="screen"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cd_video4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:layout_below="@+id/cd_video1">
+
+            <TextView
+                android:id="@+id/txt_video4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:text="@string/abdPernaElevadaCurto"
+                android:textColor="@android:color/background_dark"
+                android:textSize="25sp" />
+
+            <VideoView
+                android:id="@+id/videoView4"
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTintMode="screen"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</ScrollView>

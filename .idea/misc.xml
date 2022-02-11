@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.39114583333333336" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14074074074074075" />
+        <entry key="app/src/main/res/drawable/bg_button_calc.xml" value="0.24259259259259258" />
+        <entry key="app/src/main/res/drawable/bg_degrade_button.xml" value="0.266" />
+        <entry key="app/src/main/res/drawable/circle_1.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/drawable/circle_2.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/drawable/container_header.xml" value="0.266" />
+        <entry key="app/src/main/res/drawable/container_result.xml" value="0.266" />
+        <entry key="app/src/main/res/drawable/ic__15seg.xml" value="0.23796296296296296" />
+        <entry key="app/src/main/res/drawable/ic__30seg.xml" value="0.23796296296296296" />
+        <entry key="app/src/main/res/drawable/ic__45seg.xml" value="0.23796296296296296" />
+        <entry key="app/src/main/res/drawable/ic__565337871554373225.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/drawable/ic__5seg.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/ic__60seg.xml" value="0.23796296296296296" />
+        <entry key="app/src/main/res/drawable/ic__75seg.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/ic__90seg.xml" value="0.22083333333333333" />
+        <entry key="app/src/main/res/drawable/ic__play.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/ic__stop.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/ic_abd_infra.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/ic_abd_perna_elevada_curta.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_abd_perna_elevada_curto.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/drawable/ic_abd_remador.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_abdc_joelho_miniband.xml" value="0.1805" />
+        <entry key="app/src/main/res/drawable/ic_academia.xml" value="0.14074074074074075" />
+        <entry key="app/src/main/res/drawable/ic_academia1.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/ic_afundo_agachamento_avanco.xml" value="0.3921875" />
+        <entry key="app/src/main/res/drawable/ic_afundo_pliometrico.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/ic_agua.xml" value="0.266" />
+        <entry key="app/src/main/res/drawable/ic_agua2.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/ic_chronometer.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/drawable/ic_crono.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/ic_cronometro.xml" value="0.23796296296296296" />
+        <entry key="app/src/main/res/drawable/ic_icq.xml" value="0.22864583333333333" />
+        <entry key="app/src/main/res/drawable/ic_icq1.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/drawable/ic_imc.xml" value="0.24814814814814815" />
+        <entry key="app/src/main/res/drawable/ic_imc1.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="app/src/main/res/drawable/ic_logo_hs.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/drawable/ic_sobre.xml" value="0.229" />
+        <entry key="app/src/main/res/drawable/ic_teste.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_tmb.xml" value="0.22592592592592592" />
+        <entry key="app/src/main/res/drawable/ic_tmb1.xml" value="0.222" />
+        <entry key="app/src/main/res/drawable/ic_treino.xml" value="0.222" />
+        <entry key="app/src/main/res/layout/activity_beber_agua.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_cronometer.xml" value="0.2561981201171875" />
+        <entry key="app/src/main/res/layout/activity_icq.xml" value="0.4236541748046876" />
+        <entry key="app/src/main/res/layout/activity_imc.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.32916666666666666" />
+        <entry key="app/src/main/res/layout/activity_menu_videos.xml" value="0.22327898550724637" />
+        <entry key="app/src/main/res/layout/activity_sobre.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_tmb.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.348731884057971" />
+        <entry key="app/src/main/res/layout/activity_video_abd_remador.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_video_abd_russian.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_videos.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_webvideo.xml" value="0.34791666666666665" />
+        <entry key="app/src/main/res/layout/main_item.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14114583333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14114583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
